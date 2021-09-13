@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../images/Logo.svg';
+import logo from '../../images/logo.png';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { logout } from '../../actions/authActions';

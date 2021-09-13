@@ -3,16 +3,16 @@
         sans-serif;
     --secondary-font: 'Poppins',
         sans-serif;
-    --primary-color: #62BE1D;
-    --secondary-color: #01914B;
-    --tertiary-color: #59EDAB;
-    --color-1: #93EB45;
-    --color-2: #050E16;
-    --color-3: #45AF47;
+    --primary-color: #f4976c;
+    --secondary-color: #303c6c;
+    --tertiary-color: #f4976c;
+    --color-1: #f4976c;
+    --color-2: #303c6c;
+    --color-3: #f4976c;
     --white: #FFFFFF;
     --grey: #50555B;
-    --gradient-color: #21d190;
-    --gradient-bgColor: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
+    --gradient-color: #b4dfe5;
+    --gradient-bgColor: linear-gradient(315deg, #b4dfe5 0%, #d65bca 74%);
 }
 
 
@@ -51,7 +51,8 @@ body {
     font-family: var(--secondary-font);
     line-height: 1.6;
     background-color: #ffffff;
-    background-image: linear-gradient(-275deg, #054719 0%, #221f1f 60%);
+    /* background-image: linear-gradient(-275deg, #054719 0%, #221f1f 60%); */
+    background-color: #303c6c;
     background-size: cover;
     color: var(--color-1);
     min-height: 100vh;
@@ -60,7 +61,7 @@ body {
 .texts-primary {
     color: var(--color-1);
     text-align: center;
-}
+} 
 
 /* register page */
 .container {
@@ -111,8 +112,8 @@ ul {
 }
 
 .form-control:focus-within {
-    border: 3px solid #93EB45;
-    box-shadow: 0px 0.3em 1em #93EB45;
+    border: 3px solid #b4dfe5;
+    box-shadow: 0px 0.3em 1em #b4dfe5;
 }
 
 .btn {
@@ -259,7 +260,7 @@ ul {
 }
 
 .profiles .card:hover {
-    box-shadow: 0px 0.6em 0.2em #93EB45;
+    box-shadow: 0px 0.6em 0.2em #b4dfe5;
     transform: scale(1.1);
 
 }
@@ -282,7 +283,7 @@ ul {
 .list-card:hover,
 .transparent-bg:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0.4em 0.2em #93EB45;
+    box-shadow: 0px 0.4em 0.2em #d2fdff;
 
 }
 
