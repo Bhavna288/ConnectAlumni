@@ -5,12 +5,12 @@ import moment from 'moment';
 
 const ProfileExperience = ({ experience: { company, title, location, current, to, from, description } }) => (
 	<div>
-		<h5 className='text-color-g mt-3'>{company}</h5>
+		<h5 className='text-color-g mt-3'>{ company }</h5>
 		<p className='lead'>
-			<Moment format='YYYY/MM/DD'>{moment.utc(from)}</Moment> -{' '}
-			{!to ? ' Present' : <Moment format='YYYY/MM/DD'>{moment.utc(to)}</Moment>}, {title}, @{location}
+			<Moment format='YYYY/MM/DD'>{ moment.utc(from) }</Moment> -{ ' ' }
+			{ !to ? ' Present' : <Moment format='YYYY/MM/DD'>{ moment.utc(to) }</Moment> }, { title }, @{ location }
 		</p>
-		<p className='lead-small'>{description}</p>
+		<p className='lead-small'>{ description }</p>
 	</div>
 );
 
